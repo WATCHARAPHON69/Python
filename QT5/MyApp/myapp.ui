@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1040</width>
+    <height>788</height>
+   </rect>
+  </property>
+  <property name="cursor">
+   <cursorShape>ArrowCursor</cursorShape>
+  </property>
+  <property name="windowTitle">
+   <string>MYAPP</string>
+  </property>
+  <property name="whatsThis">
+   <string/>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="IP_label">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>20</y>
+      <width>81</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>24</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>IP</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="PORT_label">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>20</y>
+      <width>111</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>24</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>PORT</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="IP_input">
+    <property name="geometry">
+     <rect>
+      <x>102</x>
+      <y>21</y>
+      <width>381</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>24</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(85, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>192.168.1.243</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="PORT_input">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>20</y>
+      <width>141</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>24</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(85, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>8888</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="W_Button">
+    <property name="geometry">
+     <rect>
+      <x>104</x>
+      <y>516</y>
+      <width>93</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>28</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 0, 0);
+border-color: rgb(0, 0, 255);</string>
+    </property>
+    <property name="text">
+     <string>W</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="A_Button">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>610</y>
+      <width>93</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>28</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>A</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="S_Button">
+    <property name="geometry">
+     <rect>
+      <x>105</x>
+      <y>610</y>
+      <width>93</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>28</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>S</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="W_Button_3">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>610</y>
+      <width>93</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>28</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>D</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Connect_Button">
+    <property name="geometry">
+     <rect>
+      <x>802</x>
+      <y>17</y>
+      <width>191</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>Connect</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1040</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="../myimage.qrc"/>
+ </resources>
+ <connections/>
+</ui>
